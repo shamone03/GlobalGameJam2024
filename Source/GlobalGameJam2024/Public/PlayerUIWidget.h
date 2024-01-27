@@ -16,6 +16,8 @@ class GLOBALGAMEJAM2024_API UPlayerUIWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	virtual void NativeConstruct() override;
+
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	TObjectPtr<USlider> ThroatSlider;
 };

@@ -3,3 +3,7 @@
 
 #include "PlayerUIWidget.h"
 
+void UPlayerUIWidget::NativeConstruct()
+{
+	Super::NativeConstruct();
+}
